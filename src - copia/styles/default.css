@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.Main{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.MenuContent{
+    background-color: #003366;
+    width: 15vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 500px;
+    /* display: none; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1
+    3px 6px, rgba(0, 0, 0, 0.23) 0px 13px 6px;
+}
+.AvatarUser{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    vertical-align: center;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+.Header{
+    background-color: #1976D2;
+    grid-column: 1/5;
+    height: 60px;
+}
+.MainMenu,.SubMenu{
+    display: flex;
+    flex-direction: column;
+}
+.MenuGroup{
+    color: #f0f0f0;
+}
+.SubMenu{
+    background-color: #ffffff;
+}
+.BtnLink{
+    color: black;
+}
+
+.BtnLink:hover{
+    background-color: aqua;
+    color:yellowgreen;
+}
+
+.logo{
+    width: 80px;
+
+}
+.BtnNav{
+    background-color: transparent;
+    border: none;
+    left: 150px;
+}
+.BtnNav:hover{
+    background-color: blue;
+    border: none;
+    
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.open{
+    display: none;
+    /* animation-name: MenusApp; */
+	/* animation-duration: 1.5s; */
+}
+
+/* @keyframes MenusApp{
+	from{height: 0; opacity: 0;}
+	to{height: 65%;opacity: 1;}
+} */
